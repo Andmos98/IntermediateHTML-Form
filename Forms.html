@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		Forms
+	</title>
+</head>
+
+<body>
+
+	<h2>Log In</h2>
+
+<form>
+
+	<p>
+		<label for="username">Username:</label>
+		<input id="username" name="username" type="text" placeholder="username" required>
+	</p>
+
+	<p>
+		<label for="email">Email:</label>
+		<input type="email" required id="email" name="email" placeholder="email">
+	</p>
+
+	<p>
+		<label for="password">Password:</label>
+		<input id="password" name="password" type="password" placeholder="password" required>
+	</p>
+
+	<p></p>
+	<label for="checkbox">Married?</label>
+	<input type="checkbox" id="checkbox" name="checkbox" value="Yes" required >
+
+
+	<h3>Sex:</h3>
+	<p>
+		<label for="Sex=">Male:</label>
+		<input type="radio" id="radio1" name="Sex=" value="Male">
+	</p>
+
+	<p>
+		<label for="Sex=">Female:</label>
+		<input type="radio" id="radio2" name="Sex=" value="Female">
+	</p>
+
+	
+	<h3>Studies:</h3>
+
+	<select name="Studies">
+		<option name="Highschool">HighSchool</option>
+		<option name="College">College</option>
+		<option name="Master's">Master's Degree</option>
+	</select>
+
+	<p>
+		Describe yourself in 4 rows:
+	</p>
+
+	<p>
+		<textarea name="textarea" rows="4" columns="50" placeholder="My name is.."></textarea>
+	</p>
+
+	
+
+	<button>Submit</button>
+</form>
+
+</body>
+
+</html>
